@@ -22,10 +22,9 @@
 
 {% include 'header.njk' %}
         <main>
-            <section class="brxe-section pad-xl">
+            <section class="brxe-section">
                 <div class="brxe-container grid-3-1">
-                    <div class="brxe-block pad-m">
-                        <h2 class="primary-text">{{ title }}</h2>
+                    <div class="brxe-block pad-m space-v-m">
 
                         {{ content | safe }}
                         
@@ -33,25 +32,25 @@
 
                     <!-- sidebar -->
                     <div class="">
-                        <img src="/img/avatar.png">
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint nisi odit et quod ea quos tenetur praesentium cumque consequuntur, commodi nam blanditiis illo totam quam, perspiciatis vitae at. Iusto!</P>
+                        <img src="/assets/img/avatar.png">
+                        <P>I’m a Designer who codes. This is where I write my notes, thoughts about all things crafts, design and codes. Occasionally about business, mindset and health.</P>
                     </div>
                     <!-- end sidebar --> 
 
                 </div>
-            </section>
-            <section class="brxe-section pad-m">
-                <div class="brxe-container">
-                    <p>Lorem lnfjhfiwkdnjkewnklwe </p>
-                    </div>
-                
-            </section>
 
 
         </main>
 
     
-    {% include 'footer.njk' %}
+    <section class="brxe-section bg-black">
+    <div class="brxe-container grid-2">
+        <div class="gap-l">
+            <a class="brxe-logo" href="/"><img class="bricks-site-logo" src="/assets/img/logo-teal.png"></a>
+        </div>
+        <div class="align-right center-all grey-light text-small">Built using Node.JS and Eleventy. Now powered by Coffee </div>
+    </div>
+    </section>
 
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>

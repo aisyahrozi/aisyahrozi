@@ -1,0 +1,9 @@
+{
+"layout": "post.njk",
+"author": "admin",
+"tags": ["coding", "blog"],
+"tag": ["codings"],
+"categorySlug": "coding/",
+"categoryName": "Coding",
+"permalink": "/{{ page.fileSlug }}/"
+}

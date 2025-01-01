@@ -1,17 +1,10 @@
 ---
-title: Handcrafted 11ty Site
 layout: base.njk
 tag: home-page
 templateEngineOverride: njk,md
 
 ---
 
-## My Title Index Here
-
-<ul>
-{%- for post in collections.all -%}
-  <li><a href="{{ post.url }}">{{ post.url }}</a></li>
-{%- endfor -%}
-</ul>
+<h1 class="text-s grey-light">Aisyah's Blog Homepage</h1>
 
 {% include 'category.njk' %}

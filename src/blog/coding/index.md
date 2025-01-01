@@ -1,7 +1,7 @@
 ---
 layout: 'base.njk'
 tags: blogPages
-tag: topic-one-page
+tag: coding-page
 eleventyExcludeFromCollections: true
 ---
 {% include 'category.njk' %}

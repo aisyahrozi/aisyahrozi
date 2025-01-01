@@ -35,55 +35,79 @@ html {font-size:100%; font-family: "Hanken Grotesk"; }
 	\00BB for double right chevron
 	*/
 
-    --xxxl: 7.5rem     ; /* changed 120px*/
-    --xxl: 5rem        ; /* H1 80px */
-    --xl: 3.375rem     ; /* H2 54px */
-    --l: 2.25rem       ; /* H3 36px */
-    --m: 1.5rem        ; /* H4 24px */
-    --body: 1.125rem   ; /* 18px */
-    --s: 1rem          ; /* 16px */
-    --xs:0.667rem      ; /* changed 10px*/
-	--lh-xxxl: 1.2em;
-    --lh-h1: 1.1em;
-	--lh-h2: 1.3em;
-	--lh-heading: 1.3em;
-    --lh-body: 1.5em;
-    --lh-btn: 1em;
-	--ls-heading:-0.025em;
-	--ls-h1:-0.025em;
-    --ls-h2:-0.025em;
-    --col:7rem;
-    --btn-on: 3rem; /*Turn button when a number exists*/
-	
-    --clamp-xxxl: clamp(3rem, calc(3rem + ((1vw - 0.3rem) * 7.6923)), var(--xxxl));
-    --clamp-xxl: clamp(2.5rem, calc(2.5rem + ((1vw - 0.3rem) * 4.8077)), var(--xxl));
-    --clamp-xl: clamp(1.75rem, calc(1.75rem + ((1vw - 0.3rem) * 2.4038)), var(--xl));
-    --clamp-l: clamp(1.5rem, calc(1.5rem + ((1vw - 0.3rem) * 0.9615)), var(--l));
-    --clamp-m: clamp(1.125rem, calc(1.125rem + ((1vw - 0.3rem) * 0.7212)), var(--m));
-    --clamp-s: clamp(0.875rem, calc(0.875rem + ((1vw - 0.3rem) * 0.2404)), var(--s));
-    --clamp-xs: clamp(0.625rem, calc(0.625rem + ((1vw - 0.3rem) * 0.2404)), var(--xs));
-        
-    --clamp-body: clamp(1rem, calc(1rem + ((1vw - 0.3rem) * 0.2404)), var(--body));
-    --clamp-section: clamp(1rem, calc(1rem +((1vw - 0.3rem)* 3.8462)), 3rem);
+     /* Delete to use Bricks Default */
+     --bricks-color-primary: var(--primary) !important; 
+     --bricks-color-secondar: var(--secondary) !important;
+ 
+     --xxxl: 7.5rem     ; /* changed 120px*/
+     --xxl: 5rem        ; /* H1 80px */
+     --xl: 3.375rem     ; /* H2 54px */
+     --l: 2.25rem       ; /* H3 36px */
+     --m: 1.5rem        ; /* H4 24px */
+     --body: 1.125rem   ; /* 18px */
+     --s: 1rem          ; /* 16px */
+     --xs:0.667rem      ; /* changed 10px*/
+     --lh-xxxl: 1.2em;
+     --lh-h1: 1.1em;
+     --lh-h2: 1.3em;
+     --lh-heading: 1.3em;
+     --lh-body: 1.5em;
+     --lh-btn: 1em;
+     --ls-heading:-0.025em;
+     --ls-h1:-0.025em;
+     --ls-h2:-0.025em;
+     --col:7rem;
+     --btn-on: 3rem; /*Turn button when a number exists*/
+     
+     --clamp-xxxl: clamp(3rem, calc(3rem + ((1vw - 0.3rem) * 7.6923)), var(--xxxl));
+     --clamp-xxl: clamp(2.5rem, calc(2.5rem + ((1vw - 0.3rem) * 4.8077)), var(--xxl));
+     --clamp-xl: clamp(1.75rem, calc(1.75rem + ((1vw - 0.3rem) * 2.4038)), var(--xl));
+     --clamp-l: clamp(1.5rem, calc(1.5rem + ((1vw - 0.3rem) * 0.9615)), var(--l));
+     --clamp-m: clamp(1.125rem, calc(1.125rem + ((1vw - 0.3rem) * 0.7212)), var(--m));
+     --clamp-s: clamp(0.875rem, calc(0.875rem + ((1vw - 0.3rem) * 0.2404)), var(--s));
+     --clamp-xs: clamp(0.625rem, calc(0.625rem + ((1vw - 0.3rem) * 0.2404)), var(--xs));
+         
+     --clamp-body: clamp(1rem, calc(1rem + ((1vw - 0.3rem) * 0.2404)), var(--body));
+     --clamp-section: clamp(1rem, calc(1rem + ((1vw - 0.3rem) * 3.8462)), 3rem);
+ 
+     --width-card: 26rem;
+     --width-card-m: 40rem;
+     --width-card-l: 54rem;
+     --width-content: 1080px;
+ 
+     /*BreakEvent Point*/
+     --desktop: 1312px; /* Desktop */
+     --tablet: 992px; /* Tablet */
+     --landscape: 768px; /* Landscape */
+     --mobile: 480px; /* Mobile */
+ }
+ 
+ /* Overide Bricks Default 
+ .brxe-section {
+ }
+ .brxe-container {
+     width: 1312px;
+     @media (max-width: 992px) {
+         padding: 0 var(--clamp-s);
+     }
+ }
+ 
+ button.bricks-button {
+     border-radius: var(--btn-radius);
+     gap: calc(var(--clamp-s)*.75);
+ }
+ 
+ /* Your Styles Below this link */
 
-    --width-card: 26rem;
-    --width-card-m: 40rem;
-    --width-card-l: 54rem;
-    --width-content: 1080px;
 
-    /*BreakEvent Point*/
-    --desktop: 1312px; /* Desktop */
-    --tablet: 992px; /* Tablet */
-    --landscape: 768px; /* Landscape */
-    --mobile: 480px; /* Mobile */
-
-
-}
 body{
     margin:0
 }
 h1, h2, h3, h4, h5{
     margin:0;
+}
+h1{
+    color:var(--primary);
 }
 .brxe-section {
     padding: calc(var(--clamp-section)* 2) 0;
@@ -110,17 +134,21 @@ h1, h2, h3, h4, h5{
 [class*=brxe-] {
     max-width: 100%;
 }
+ul.menu{
+    padding:0;
+}
 ul.menu li{
     display: inline-block;
     padding:0 1em;
 }
 header{
     padding-top:1em;
-    background: url(/img/header-bg2.png) no-repeat center bottom;
+    background: url(/assets/img/header-teal.png) no-repeat center bottom;
     height:272px;
     background-size:cover;
-    margin-bottom:-150px;
+    margin-bottom:-200px;
 }
+
 a{
     text-decoration: none;
 }
@@ -131,5 +159,42 @@ a.secondary:hover{
     color:var(--secondary-off)
 }
 .footer{
-  padding:4em 0;
+  padding:1em 0;
+}
+@media (max-width: 480px) {
+    header .brxe-container div{
+        height:80%;
+    }
+    .grid-2:not(.ct-section), .grid-3:not(.ct-section) {
+        row-gap: 0;
+    }
+    .grid-2 div{
+        justify-self: center;
+        margin-left: unset;
+    }
+    header img.logo{
+        width:auto;
+        height:40px;
+        
+    }
+    header ul.menu{
+        margin-top:-0.5rem;
+    }
+}
+.text-label{
+    letter-spacing: 3px;
+}
+.post-grid{
+    border-bottom:1px solid var(--grey-light);
+}
+.post-meta{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+article.post-content{
+    h1, h2, h3{
+        font-size:smaller;
+    }
+
 }
