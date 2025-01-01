@@ -1,0 +1,14 @@
+<article>
+	<div class="post-date">
+
+	</div>
+	<div class="content">
+		<div class="space-v-xs">
+			<span class="text-label accent text-s">
+			<a href="/blog/{{ post.data.categorySlug }}" class="btn btn--primary">{{ post.data.categoryName }}</a>
+			</span>
+			<a class="primary" href="{{ post.url }}"><h2 class="text-l">{{ post.data.title }}</h2></a>
+		</div>
+		<p>{{ post.templateContent | excerpt }}</p>
+	</div>
+</article>

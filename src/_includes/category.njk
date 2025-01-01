@@ -1,0 +1,14 @@
+
+		{%- if tag == 'topic-one' -%}
+		{%- for post in collections.topicOnePosts | reverse -%}
+		{%- include 'post-card.njk' -%}
+		{%- endfor -%}
+		{%- else -%}
+		{%- for post in collections.blog | reverse -%}
+		{%- include 'post-card.njk' -%}
+		{%- endfor -%}
+		{% endif %}
+
+
+this is content of category. 
+
