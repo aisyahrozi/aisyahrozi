@@ -14,6 +14,8 @@ Take care of your physical health. Without healthy body, your mind can't functio
 ## Mental
 You are what you consume. Limit doom scolling and social media. Consume more on what can help you achieve more. Keep yourself occupied with creating as that is good for your soul. Don't worry yourself with the future (atleast not too much). As my mom says, "Keep doing the work. InshaAllah, it will come"
 
+Be grateful for 3 things in your life everyday. 
+
 ## Spiritual 
 Pray to The almighty. Nothing you are today is without His will. So don't forget to pray and remain humble that we are just a weak human being that is at His mercy. 
 

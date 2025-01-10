@@ -194,11 +194,12 @@ a.secondary:hover{
 }
 article.post-content{
     h2{
-        font-size: var(--l);
-        margin:0.2em 0;
+        font-size: var(--m);
+        margin:1em 0 0.2em 0;
     }
     h3{
-        font-size: var(--m);
+        font-size: var(--s);
+        margin:1em 0 0.2em 0;
     }
     h4{
         font-size: var(--s);

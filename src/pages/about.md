@@ -3,4 +3,4 @@ title: About
 tag: page-about
 ---
 
-About me bla bla bla
+Watch this space, I'll be editing this. Not like anyone cared, tho? 🫣
