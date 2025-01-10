@@ -12,7 +12,7 @@ I'll save the details about the build of this blog for another time. Expect this
 
 ## Anyhoo, what's going in my life? 
 
-Well, I **finally moved to Australia** (since Sept 2023), only not Melbourne as I had dreamed -but Perth, Western Australia as I love the lifestyle here even more. The only bad news about it is that it took a decade to finally found my way here and since covid, as with everything else, the economy is just so expensive. But hey I'm grateful to be here. 
+Well, I **finally moved to Australia** (since Sept 2023), only not Melbourne as I had dreamed -but Perth, as I love the lifestyle here even more (Don't come here, it's awful :wink: ). The only bad news about it is that it took a decade to finally found my way here and since covid, as with everything else, the economy is just so expensive. But hey I'm grateful to be here. 
 
 **Our two little girls** are now grown up. They are no longer babies. Sara is now 11 while Amira is 8, (can you imagine??!) They are thriving at school here, doing much better. All that anxiety and worry about them adapting was all for nothing. 
 
@@ -24,5 +24,4 @@ Well, I **finally moved to Australia** (since Sept 2023), only not Melbourne as 
 
 So for the time being, my current hobby is taking pictures and sometimes making reels of my kids school lunches (yea don't laugh). Yeah, I know sounds a bit ridiculous, tell me about it! 
 
-**Work:** As far as work goes, well, I'm still with Laman7. We have evolved alot as a company and I've grown a lot as employee, manager, and partner. I'm grateful for Laman7 as it has provided and afforded us to move here. It's time to bring it to greater heights, and I know the road ahead is never smooth, but that is the reality of entrepreneurship. 
-
+**Work:** As far as work goes, well, I'm still with Laman7. We have evolved alot as a company and I've grown a lot as employee, manager, and partner. I'm grateful for Laman7 as it has provided and afforded us to move here. It's time to bring it to greater heights, and I know the road ahead is never smooth, but that is the reality of entrepreneurship. :blush:

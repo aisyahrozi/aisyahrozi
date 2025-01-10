@@ -1,0 +1,9 @@
+{
+    "layout": "post.njk",
+    "author": "admin",
+    "tags": ["reflectionPosts", "blog"],
+    "tag": ["reflection"],
+    "categorySlug": "reflection/",
+    "categoryName": "Reflection",
+    "permalink": "/{{ page.fileSlug }}/"
+    }

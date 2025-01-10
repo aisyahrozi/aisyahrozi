@@ -8,5 +8,6 @@
 		</div>
 
 		<p>{{ post.templateContent | excerpt }}</p>
+		<div class="post-meta text-label text-xs">Published on {{ post.data.date | postDate }}</div>
 	</div>
 </article>

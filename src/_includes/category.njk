@@ -1,10 +1,15 @@
+{%- if tag == 'coding-page' -%}
+    {%- for post in collections.codingPosts | reverse -%}
+        {%- include 'post-card.njk' -%}
+    {%- endfor -%}
+{%- else -%}
+    {%- if tag == 'reflection-page' -%}
+        {%- for post in collections.reflectionPosts | reverse -%}
+            {%- include 'post-card.njk' -%}
+        {%- endfor -%}
+    {%- endif -%}  {# Closing inner if #}
 
-		{%- if tag == 'topic-one' -%}
-		{%- for post in collections.topicOnePosts | reverse -%}
-		{%- include 'post-card.njk' -%}
-		{%- endfor -%}
-		{%- else -%}
-		{%- for post in collections.blog | reverse -%}
-		{%- include 'post-card.njk' -%}
-		{%- endfor -%}
-		{% endif %}
+    {%- for post in collections.blog | reverse -%}
+        {%- include 'post-card.njk' -%}
+    {%- endfor -%}
+{%- endif -%}  {# Closing outer if #}
