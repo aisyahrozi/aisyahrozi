@@ -1,5 +1,5 @@
 ---
-title: Frustrated Kids
+title: Frustrated Kids (Note)
 tags: parenting
 date: 2025-01-03
 ---
