@@ -114,7 +114,7 @@ article p{
     margin: 0 0 calc(var(--clamp-s)* 1.25);
 }
 img, picture {
-    width: unset;
+    width: unset !important;
     height: auto;
     outline: none;
     vertical-align: middle;
