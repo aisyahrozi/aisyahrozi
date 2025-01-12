@@ -1,6 +1,6 @@
 ---
 title: Frustrated Kids (Note)
-tags: parenting
+tags: ["Parenting", "Notes"]
 date: 2025-01-03
 ---
 Kids may throw tantrum when dealing with difficult challenge

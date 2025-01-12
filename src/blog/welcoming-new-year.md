@@ -1,7 +1,7 @@
 ---
 title: Welcoming 2025
 date: 2025-01-01
-image: 
+tags: Reflection
 ---
 
 Okay, after much burning desire to reactivate my blog, I've finally done it. 

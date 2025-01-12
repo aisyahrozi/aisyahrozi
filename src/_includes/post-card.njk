@@ -1,13 +1,14 @@
-<article>
-	<div class="brxe-block post-grid space-v-s margin-v-s pad-v-s">
-		<div class="space-v-xs">
-			<span class="text-label primary text-s">
-			<a href="/{{ post.data.categorySlug }}" class="btn btn--primary">{{ post.data.categoryName }}</a>
-			</span>
-			<a class="primary" href="{{ post.url }}"><h2 class="text-l">{{ post.data.title }}</h2></a>
-		</div>
 
+	<div class="brxe-block post-grid space-v- margin-v-s pad-v-s">
+		<div class="title-wrap"><div class="post-meta text-label text-xs grey">Published on {{ post.data.date | postDate }}</div><a class="primary" href="{{ post.url }}"><h2 class="text-l">{{ post.data.title }}</h2></a>
+		</div>
 		<p>{{ post.templateContent | excerpt }}</p>
-		<div class="post-meta text-label text-xs">Published on {{ post.data.date | postDate }}</div>
+		<a class="btn-outline btn-accent btn-s margin-v-xs" href="{{ post.url }}">Read More</a>
+		<div class="tags-wrap">{% if post.data.tags %}
+  <div class="tags text-label">{% for tag in post.data.tags %}{% if tag != "blog" %}
+        <a href="/tags/{{ tag | slugify }}/" class="">{{ tag }}</a>{% if not loop.last %}{% endif %}{% endif %}{% endfor %}
+  </div>{% endif %}</div>
 	</div>
-</article>
+
+
+ <!-- Display related tags for each post -->

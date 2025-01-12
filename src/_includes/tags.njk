@@ -1,0 +1,8 @@
+---
+layout: "base.njk"
+---
+
+<h1 class="text-m">Posts Tagged with "{{ tag }}"</h1>
+  {% for post in collections[tag] %}
+   {%- include 'post-card.njk' -%}
+  {% endfor %}

@@ -1,6 +1,8 @@
 ---
 title: The Secret of Living Well
-tags: reflection
+tags:
+  - Notes
+  - Reflection
 date: 2025-01-10
 ---
 It is incredibly easy to live well. A calm, peaceful life. Nothing too extravagant, nothing too hard. It takes some effort to get there, maybe. but it is worth it.

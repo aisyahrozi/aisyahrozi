@@ -1,13 +1,27 @@
 ---
 layout: "base.njk"
 ---
-<div class="post-header space-v-xs"><h1 class="article--title text-xl">{{ title }}</h1>
+
+<div class="post-header space-v-xs">
+	{% if tags %}
+	{% for tag in tags %}
+		{% if tag != "blog" %}
+			<span class="tags"> <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a></span>
+		{% endif %}
+	{% endfor %}
+{% endif %}
+	<h1 class="article--title text-xl">{{ title }}</h1>
 	<div class="post-meta text-label text-xs">Published on {{ date | postDate }}
-	<span><a href="/{{ post.data.categorySlug }}" class="btn btn--primary">{{ post.data.categoryName }}</a></span>
 	<span>About {{ content | readingTime }}</span>
+
+</p>
+</span>
 </div>
 </div>
 
 <article  class="post-content">
 	{{ content | safe }} 
 </article>
+
+<div class="comments">
+</div>

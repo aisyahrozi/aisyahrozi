@@ -7,4 +7,7 @@ templateEngineOverride: njk,md
 
 <h1 class="text-s grey-light">Aisyah's Blog Homepage</h1>
 
-{% include 'category.njk' %}
+    {%- for post in collections.blog | reverse -%}
+        {%- include 'post-card.njk' -%}
+    {%- endfor -%}
+

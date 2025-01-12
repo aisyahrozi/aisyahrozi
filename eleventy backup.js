@@ -18,6 +18,12 @@ module.exports = function (eleventyConfig){
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
+    // excerp filter
+    eleventyConfig.addFilter("excerpt", (content, length = 300) => {
+        let cleanContent = content.replace(/(<([^>]+)>)/gi, ""); // Strip HTML tags
+        return cleanContent.length > length ? cleanContent.slice(0, length) + "..." : cleanContent;
+    });
+
     // Add a collection for all tags
     eleventyConfig.addCollection("allTags", function(collectionApi) {
         const tags = new Set();
@@ -33,8 +39,6 @@ module.exports = function (eleventyConfig){
 
             return [...tags];
         });
-
-    
 
     // Generate a collection of posts grouped by tags
     eleventyConfig.addCollection("tagsWithPosts", function(collectionApi) {
@@ -54,12 +58,10 @@ module.exports = function (eleventyConfig){
         return tagMap;
     });
 
-
-    // excerp filter
-    eleventyConfig.addFilter("excerpt", (content, length = 300) => {
-        let cleanContent = content.replace(/(<([^>]+)>)/gi, ""); // Strip HTML tags
-        return cleanContent.length > length ? cleanContent.slice(0, length) + "..." : cleanContent;
-    });
+    // custom filter to enable json for debug purpose 
+    eleventyConfig.addFilter("json", function (value) {
+        return JSON.stringify(value, null, 2);
+      });
    
     return{
         dir: {

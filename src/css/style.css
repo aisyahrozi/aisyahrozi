@@ -6,7 +6,7 @@ html {font-size:100%; font-family: "Hanken Grotesk"; }
 :root {
     /* Colors */
 	--primary: #7060C1;
-	--primary-off: #6457A8;
+	--primary-off: #3a2f75;
 	--secondary: #9A338E;
   	--secondary-off: #89287D;
   	--accent: #62D1B0;
@@ -106,6 +106,23 @@ body{
 h1, h2, h3, h4, h5{
     margin:0;
 }
+/** autocss correction **/
+main p{
+    margin:0;
+}
+article p{
+    margin: 0 0 calc(var(--clamp-s)* 1.25);
+}
+img, picture {
+    width: unset;
+    height: auto;
+    outline: none;
+    vertical-align: middle;
+}
+.space-v-s:not(.ct-section) > * + * {
+    margin-top: 0;
+}
+
 h1{
     color:var(--primary);
 }
@@ -152,7 +169,7 @@ header{
 a{
     text-decoration: none;
 }
-a.primary:hover{
+a.primary:hover, a:hover{
     color:var(--primary-off)
 }
 a.secondary:hover{
@@ -205,4 +222,19 @@ article.post-content{
         font-size: var(--s);
     }
 
+}
+.tags a{
+    padding: 8px;
+    line-height:100%;
+    border-radius: var(--xs);
+    margin-right:0.8rem;
+    text-transform: lowercase;
+}
+.tags a::before{
+    content: "#";
+}
+.tags-wrap ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
