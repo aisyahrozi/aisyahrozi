@@ -9,9 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "<!-- **aisyahrozi/aisyahrozi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "eleventy-plugin-reading-time": "^0.0.1",
     "i": "^0.3.7",
     "luxon": "^3.5.0",
@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "markdown-it-emoji": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisyahrozi/aisyahrozi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aisyahrozi/aisyahrozi/issues"
+  },
+  "homepage": "https://github.com/aisyahrozi/aisyahrozi#readme"
 }
